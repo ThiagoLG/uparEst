@@ -23,6 +23,7 @@ public class AdminDao implements IAdminDao {
 				autenticado = true;
 			}
 
+			
 			return autenticado;
 		} catch (Exception e) {
 			e.printStackTrace();
